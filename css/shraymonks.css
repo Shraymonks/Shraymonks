@@ -21,7 +21,7 @@ a:hover{
 	color: #555;
 }
 
-blockquote, p{
+p{
 	line-height: 1.25;
 }
 
@@ -44,19 +44,6 @@ h1{
 	font-size: 36px;
 	margin-bottom: 30px;
 	padding: 5px 15px;
-}
-
-blockquote{
-	line-height: 1.15;
-	quotes: '\201C' '\201D';
-}
-
-blockquote::before{
-	content: open-quote;
-}
-
-blockquote::after{
-	content: close-quote;
 }
 
 #info{
@@ -108,25 +95,6 @@ blockquote::after{
 
 #work > ul ul li{
 	margin-bottom: 5px;
-}
-
-#work aside{
-	font-size: 13px;
-	overflow: hidden;
-}
-
-#work aside blockquote{
-	border-left: 4px solid #386FA9;
-	color: #888;
-	font-style: italic;
-	padding-left: 10px;
-}
-
-#work aside small{
-	color: #444;
-	font-size: 12px;
-	float: right;
-	text-align: right;
 }
 
 #interests{
