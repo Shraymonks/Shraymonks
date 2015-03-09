@@ -1,202 +1,202 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 @page {
-	margin: 30px 20px;
+  margin: 30px 20px;
 }
 
 body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	margin: 0 auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
 }
 
 a {
-	color: #386FA9;
-	text-decoration: none;
-	transition: color 250ms;
+  color: #386FA9;
+  text-decoration: none;
+  transition: color 250ms;
 }
 
 a:hover {
-	color: #555;
+  color: #555;
 }
 
 p {
-	line-height: 1.25;
+  line-height: 1.25;
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 section {
-	margin-bottom: 30px;
-	overflow: hidden;
-	position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
 }
 
 section:last-child {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 h2, h3, h4 {
-	font-weight: 300;
+  font-weight: 300;
 }
 
 h1 {
-	color: #386FA9;
-	font-size: 46px;
-	font-weight: 100;
+  color: #386FA9;
+  font-size: 46px;
+  font-weight: 100;
 }
 
 h2 {
-	background: #FFF;
-	color: #386FA9;
-	display: inline-block;
-	font-size: 22px;
-	margin-bottom: 10px;
-	padding-right: 10px;
+  background: #FFF;
+  color: #386FA9;
+  display: inline-block;
+  font-size: 22px;
+  margin-bottom: 10px;
+  padding-right: 10px;
 }
 
 h2::after {
-	border-top: 1px solid #386FA9;
-	content: '';
-	position: absolute;
-	top: 15px;
-	width: 100%;
-	z-index: -1;
+  border-top: 1px solid #386FA9;
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  z-index: -1;
 }
 
 h3 {
-	font-size: 18px;
-	margin-bottom: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 header {
-	margin: 20px 0;
-	overflow: hidden;
+  margin: 20px 0;
+  overflow: hidden;
 }
 
 #info {
-	line-height: 1.5;
+  line-height: 1.5;
 }
 
 #info dt {
-	color: #444;
-	float: left;
-	font-weight: 300;
-	margin-right: 10px;
-	text-align: right;
-	width: 50px;
+  color: #444;
+  float: left;
+  font-weight: 300;
+  margin-right: 10px;
+  text-align: right;
+  width: 50px;
 }
 
 #info dd {
-	margin-left: 60px;
+  margin-left: 60px;
 }
 
 section > ul > li {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 section > ul > li:last-child {
-	margin: 0;
+  margin: 0;
 }
 
 .date {
-	color: #555;
-	float: right;
-	font-size: 16px;
-	margin-top: 2px;
-	padding-left: 10px;
+  color: #555;
+  float: right;
+  font-size: 16px;
+  margin-top: 2px;
+  padding-left: 10px;
 }
 
 .location {
-	color: #777;
-	display: block;
-	font-size: 14px;
+  color: #777;
+  display: block;
+  font-size: 14px;
 }
 
 #work > ul ul {
-	clear: both;
-	list-style-type: disc;
-	margin-left: 18px;
+  clear: both;
+  list-style-type: disc;
+  margin-left: 18px;
 }
 
 #work > ul ul li {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 /* Print */
 @media only print {
-	body {
-		font-size: 12px;
-	}
+  body {
+    font-size: 12px;
+  }
 
-	h1 {
-		font-size: 36px;
-	}
+  h1 {
+    font-size: 36px;
+  }
 
-	h2 {
-		font-size: 16px;
-	}
+  h2 {
+    font-size: 16px;
+  }
 
-	h2::after {
-		top: 10px;
-	}
+  h2::after {
+    top: 10px;
+  }
 
-	h3, .date {
-		font-size: 14px;
-	}
+  h3, .date {
+    font-size: 14px;
+  }
 
-	.location {
-		font-size: 11px;
-	}
+  .location {
+    font-size: 11px;
+  }
 
-	header {
-		margin: 0 0 15px;
-	}
+  header {
+    margin: 0 0 15px;
+  }
 }
 
 /* Desktop */
 @media only print, screen and (min-width: 768px) {
-	body {
-		box-sizing: border-box;
-		max-width: 960px;
-		padding: 0 20px;
-	}
+  body {
+    box-sizing: border-box;
+    max-width: 960px;
+    padding: 0 20px;
+  }
 
-	h1 {
-		float: left;
-	}
+  h1 {
+    float: left;
+  }
 
-	#info {
-		float: right;
-	}
+  #info {
+    float: right;
+  }
 
-	.position::after {
-		color: #777;
-		content: ',';
-	}
+  .position::after {
+    color: #777;
+    content: ',';
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width : 767px) {
-	body {
-		box-sizing: content-box;
-		padding: 0 10px;
-	}
+  body {
+    box-sizing: content-box;
+    padding: 0 10px;
+  }
 
-	header {
-		margin-top: 0;
-	}
+  header {
+    margin-top: 0;
+  }
 
-	#info {
-		margin-top: 10px;
-	}
+  #info {
+    margin-top: 10px;
+  }
 
-	#work h3 span {
-		display: block;
-	}
+  #work h3 span {
+    display: block;
+  }
 }
